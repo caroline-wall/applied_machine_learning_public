@@ -2,6 +2,6 @@
 
 1. According to Maroney, traditional programming takes data and rules and provides answers, whereas machine learning takes data and answers and determines the rules.
 
-2. 
+2. The first time, the model predicted 22.000563, and the second time, it predicted 21.998941. I discovered that this discrepency only occurs when running the all of the code a second time, so I'm assuming that is something to do with how the model fits to the data, supposedly the epochs. According to Maroney, the computer doesn't quite have enough information (because it's a small data set) to know that the relationship is exactly linear, therefore, it does its best to give an answer that has a high probability of being correct. The two outputs that I received most likely have about the same probability of being correct, as the distance between each answer and 22 (the correct answer) is fairly similar.
 
-3. 
+3. The houses that are the best deal are Hudgins ($97,000), Matthews ($347,500), Mobjack ($289,000), and New Point ($229,000). Each of these houses cost less than the model predicted based on the number of rooms, meaning you are getting more rooms than normal out of what you're spending. The house on Church St. ($399,000) is the worst deal because that house costs more than the model predicts 4 bedroom houses to cost, and the difference between the actual cost and the model predicted cost is greater than for any other house.
