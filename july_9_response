@@ -1,0 +1,3 @@
+1. TF Hub is a library that gives you access to parts of machine learning models and datasets
+
+2. The optimizer and loss functions are how the model calculates its error and adjusts the parameters of each neuron from their initial random values, so the model's error decreases.
