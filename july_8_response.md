@@ -7,5 +7,7 @@
 3. The optimizer and loss functions are how the model assesses how well it's doing and how it adjusts accordingly. The loss function calculates the error, while the optimizer updates each neuron's initially random parameters to have more appropriate weight/bias. The optimizer continues to do this over each epoch as the output of the loss function gets smaller and smaller, therefore, minimizing the error and creating a more accurate model.
 
 4. a. 60,000 images, 28x28
+
    b. 60,000 labels
+   
    c. 10,000 images, 28x28
