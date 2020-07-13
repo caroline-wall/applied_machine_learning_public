@@ -1,6 +1,6 @@
 # Project 1
 
-[Video link] (https://youtu.be/nSrlrb7Pk4A) 
+[Video](https://youtu.be/nSrlrb7Pk4A) 
 
 1. Overall, I find the social distance detector to not be that effective at detecting violations. The detector most focused on the foreground, as it was difficult to distinguish people in the background, but it struggled with those closest to the camera. Four of the main people in the video remain in green squares the whole time, despite the fact that they are less than six feet from one another. However, I think the detector struggled with because of its depth perception. As the video is of a crowd and its taken at eye level, it is difficult for computer to determine the distance between two people in terms of depth. This video depcits the crowd at the removal of Richmond's Stonewall Jackson monument, so it is similar to many crowds that have gathered across the country lately to protest. Most people were wearing masks and standing some distance apart, but it was still a packed area. I think it's interesting that the detector seemed to have a harder time with the crowd than it does with people walking down the street, as a crowd presents greater concerns in terms of social distancing.
 
