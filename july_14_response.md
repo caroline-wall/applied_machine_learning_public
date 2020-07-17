@@ -1,7 +1,7 @@
 # July 14, 2020 Response
 
 1. The first filter transformed the image by  
-<img width="492" alt="image" src="https://user-images.githubusercontent.com/67920492/87457280-1b4e2200-c5d6-11ea-8f17-007482d1f480.png"> 
+<img width="314" alt="image" src="https://user-images.githubusercontent.com/67920492/87839014-05a35b80-c867-11ea-978e-59e24523ba55.png">
 
 The second filter
 
