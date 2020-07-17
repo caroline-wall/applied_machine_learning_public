@@ -4,6 +4,7 @@
 <img width="314" alt="image" src="https://user-images.githubusercontent.com/67920492/87839014-05a35b80-c867-11ea-978e-59e24523ba55.png">
 
 The second filter
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/67920492/87839067-3a171780-c867-11ea-99f8-11cc0bb88f79.png">
 
 Finally, the third filter
 
