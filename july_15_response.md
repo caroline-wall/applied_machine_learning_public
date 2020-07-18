@@ -9,3 +9,9 @@ Convolutional Horses and Humans:
 Regression:
 
 1. This plot shows the relationship between each variable in the auto-mpg dataset. With this plot, you are able to determine which variable might be correlated, providing insight to the dataset as a whole. For example, it seems that weight increases as displacement increases and vice versa. On the diagonal, each variable is compared to itself, therefore, instead of showing a relationship, these plots show the distribution of the data for that variable. According to this plot, it seems that both MPG and weight have close to a normal distribution.
+
+<img width="654" alt="image" src="https://user-images.githubusercontent.com/67920492/87842226-d8f83f80-c878-11ea-8f20-02ed68fc9854.png">
+
+2. Looking at these observations, it seems as though the model became slighlty overfit around the 998th step, as that point both the MAE and MSE began to increase.
+
+However, when looking at the change in MSE throughout the epochs, it appears that model actually became overfit much earlier, around 100 epochs, as that is when the validating MSE begins to increase compared to the training MSE.
