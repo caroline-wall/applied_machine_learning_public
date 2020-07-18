@@ -19,3 +19,7 @@ Regression:
 When looking at the change in MSE throughout the epochs, it appears that the model actually became overfit much earlier, around 100 epochs, as that is when the validating MSE begins to increase compared to the training MSE. Throughout the epochs, you can see slight fluctuations in both the training and validating MSE, however, these fluctuations are more severe for the validating data, reflecting what was shown in the last five steps.
 
 <img width="365" alt="image" src="https://user-images.githubusercontent.com/67920492/87842382-1c06e280-c87a-11ea-9a7e-194b5f2e6c02.png">
+
+Overfit and Underfit:
+
+1. 
