@@ -22,4 +22,6 @@ When looking at the change in MSE throughout the epochs, it appears that the mod
 
 Overfit and Underfit:
 
-1. 
+1. Overfitting is when a model becomes so adjusted to the training data that it becomes less able to generalize what it learned from the training data, resulting in it being more accurate on the training data than it is on the testing data. This graph shows have overfitting is more likely to occur in a larger model. This is because in a larger model, the model has more parameters, and therefore, is more able to "memorize" which training data goes with which target. While the makes the model obtain close to perfect accuracy on the training data, it is less able to generalize to other data and does worse on the testing data, meaning the model struggles with data it hasn't seen before. The graph reflects as this, as with the tiny model, the training and validating data have similar loss throughout the epochs. As the model gets larger, the difference between the training and validating loss grows. For the large model, at about 10 epochs, the training loss begins to drop rapidly while the validating loss soars.
+
+<img width="446" alt="image" src="https://user-images.githubusercontent.com/67920492/87842626-b0be1000-c87b-11ea-9eee-ca8117f81e1b.png">
