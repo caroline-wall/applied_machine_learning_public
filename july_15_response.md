@@ -6,6 +6,7 @@ Convolutional Horses and Humans:
 
 2. For my model, I used three convolutional layers, one of 16, one of 32, and one of 64, and three pooling layers. With each convolutional layer, the output shape decreased by two pixels, and with each pooling layer, the size of the image was cut in half. For my output layer, I chose the function sigmoid, which works well for binary classifications like this one, as it sets the output to 0 for one class and 1 for the other. Additionally, the sigmoid function allows the model to operate with only one neuron in the final layer. In the model compiler, I used binary crossentropy as my argument for loss, RMSprop with a learning rate of .001 for my optimizer, and accuracy as my metric.
 
+
 Regression:
 
 1. This plot shows the relationship between each variable in the auto-mpg dataset. With this plot, you are able to determine which variable might be correlated, providing insight to the dataset as a whole. For example, it seems that weight increases as displacement increases and vice versa. On the diagonal, each variable is compared to itself, therefore, instead of showing a relationship, these plots show the distribution of the data for that variable. According to this plot, it seems that both MPG and weight have close to a normal distribution.
