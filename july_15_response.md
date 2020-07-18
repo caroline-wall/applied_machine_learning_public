@@ -12,6 +12,10 @@ Regression:
 
 <img width="654" alt="image" src="https://user-images.githubusercontent.com/67920492/87842226-d8f83f80-c878-11ea-8f20-02ed68fc9854.png">
 
-2. Looking at these observations, it seems as though the model became slighlty overfit around the 998th step, as that point both the MAE and MSE began to increase.
+2. Looking at these observations, around the 998th step both the MAE and MSE began to increase, implying that the model became less accurate at the point. Additionally, this fluctuation in the MAE and MSE is more dramatic in the validating data than the testing data, which suggests that there may be some overfitting happening, as the validating data is experiencing different results than the testing data.
 
-However, when looking at the change in MSE throughout the epochs, it appears that model actually became overfit much earlier, around 100 epochs, as that is when the validating MSE begins to increase compared to the training MSE.
+<img width="491" alt="image" src="https://user-images.githubusercontent.com/67920492/87842411-4c4e8100-c87a-11ea-93ec-729c2f355688.png">
+
+When looking at the change in MSE throughout the epochs, it appears that the model actually became overfit much earlier, around 100 epochs, as that is when the validating MSE begins to increase compared to the training MSE. Throughout the epochs, you can see slight fluctuations in both the training and validating MSE, however, these fluctuations are more severe for the validating data, reflecting what was shown in the last five steps.
+
+<img width="365" alt="image" src="https://user-images.githubusercontent.com/67920492/87842382-1c06e280-c87a-11ea-9a7e-194b5f2e6c02.png">
