@@ -8,7 +8,7 @@ The stylized image seen on this t-shirt was created by combining the style of a 
 
 <img width="510" alt="image" src="https://user-images.githubusercontent.com/67920492/87853589-60759b00-c8d9-11ea-9aed-f2803f0373d3.png">
 
-I chose the image of the brain for two reasons. One, data science is compromised of thinking logically about complex problems. This starts with the brain, although the computer allows us to perform this type of thinking on a much larger scale. In fact, this course itself is about teaching machines how to learn like a brain in order to make predictions and analyze data about the world around us. Two, this data we analyze is often about ourselves and our brains: our effect on the environment, the social sciences, etc. 
+I chose the image of the brain for two reasons. One, data science is compromised of thinking logically about complex problems. This starts with the brain, although the computer allows us to perform this type of thinking on a much larger scale. In fact, this course itself is about teaching machines how to learn like a brain in order to make predictions and analyze data about the world around us. Two, this data we analyze is often about ourselves and our brains: our effect on the environment, the social sciences, etc. Data science is about converting our collective brain power into a larger, mechanized process in order to fully discover the world around us and how it works.
 
 ![image](https://user-images.githubusercontent.com/67920492/87852403-b0e7fb00-c8cf-11ea-8445-f86fe2874297.png)
 
