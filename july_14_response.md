@@ -21,6 +21,8 @@ In applying this filter, I have minimized the image by only extracting the large
 3. Yes, the accuracy of the model increased after applying the convolutions and pooling, going from an accuracy of 97 to 98. However, the model also took much longer to run. 
 
 Here are the convolutions for the number 9:
-
+<img width="407" alt="image" src="https://user-images.githubusercontent.com/67920492/87840887-f1b02780-c86f-11ea-81fe-0ce4566735f8.png">
 
 As you can see, the convolutions are trying to pull out the different features of the nine, notably the tail and the circle. The pixels of those important features are then amplified as a result of pooling, as the size of the image decreases. These convolutions seem to be focusing on the higher circle and the tail as an indication that this is a nine, as the top of the circle and the bottom of the tail are what have been pulled out in the final convolutions.
+
+Using 32 and 16 made just slightly less accurate models, yet the training time was also slightly diminished. Additionally, adding more convolutional layers had the opposite effect, increasing both the accuracy of the model and the training time.
