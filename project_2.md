@@ -4,7 +4,7 @@ T-shirt Design:
 
 
 
-The stylized image seen on this t-shirt was created by combining the style of a Jackson Pollock piece with the content of an image of a brain using a total variation loss method over 12 epochs. 
+The stylized image seen on this t-shirt was created by combining the style of a Jackson Pollock piece with the content of an image of a brain using a total variation loss method over 15 epochs. 
 
 
 
