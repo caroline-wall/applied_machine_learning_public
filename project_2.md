@@ -2,11 +2,11 @@
 
 T-shirt Design:
 
-
+<img width="567" alt="image" src="https://user-images.githubusercontent.com/67920492/87853665-ee518600-c8d9-11ea-90e8-a429cb4bb332.png">
 
 The stylized image seen on this t-shirt was created by combining the style of a Jackson Pollock piece with the content of an image of a brain using a total variation loss method over 15 epochs. 
 
-
+<img width="510" alt="image" src="https://user-images.githubusercontent.com/67920492/87853589-60759b00-c8d9-11ea-9aed-f2803f0373d3.png">
 
 I chose the image of the brain for two reasons. One, data science is compromised of thinking logically about complex problems. This starts with the brain, although the computer allows us to perform this type of thinking on a much larger scale. In fact, this course itself is about teaching machines how to learn like a brain in order to make predictions and analyze data about the world around us. Two, this data we analyze is often about ourselves and our brains: our effect on the environment, the social sciences, etc. 
 
