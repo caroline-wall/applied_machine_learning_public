@@ -10,4 +10,6 @@ Cats and Dogs:
 
 3. The metric argument determines how the model's performance is judged. Like with the optimizer and loss functions, there are multiple options to choose from to determine how this is implemented. For example, the argument accuracy calculates how often the model's predictions equal the actual labels.
 
-4. 
+4. <img width="402" alt="image" src="https://user-images.githubusercontent.com/67920492/88466077-c85a5180-ce96-11ea-8b0b-7f55082658fb.png">
+
+The model had a training accuracy of almost 98% and a validation accuracy of 60%, so it is clearly very overfit. This is reflected in the graphs above, as the validation set starts to drastically differ from the training set for both accuracy and loss at about 7 epochs.
