@@ -8,7 +8,7 @@ Premade estimators:
    BoostedTreesEstimator: tf.estimator.BoostedTreesEstimator()\
    BaselineEstimator: tf.estimator.BaselineEstimator()\
    DNNEstimator: tf.estimator.DNNEstimator()\
-   Estimator: tf.estimator.Estimator()\
+   Estimator: tf.estimator.Estimator()
    
 3. Input functions supply the data for training and evaluating by creating a dictionary of the features and their corresponding values as well as an array containing the label for every data point. It then loads that data into a dataset. This is done in order to separate the data into batches. Feature columns are definied in order to tell the model how to represent the data within each feature in the dictionary created earlier. 
 
@@ -16,6 +16,4 @@ Premade estimators:
 
 5. The LinearClassifier() performed the best with an accuracy of 96.7%.
 
-1. LinearClassifier()\
-2. DNNClassifier()\
-3. DNNLinearCombinedClassifier()
+1. LinearClassifier()\2. DNNClassifier()\3. DNNLinearCombinedClassifier()
