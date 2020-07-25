@@ -16,4 +16,4 @@ Premade estimators:
 
 5. The LinearClassifier() performed the best with an accuracy of 96.7%.
 
-1. LinearClassifier()\2. DNNClassifier()\3. DNNLinearCombinedClassifier()
+1. LinearClassifier()\ 2. DNNClassifier()\ 3. DNNLinearCombinedClassifier()
