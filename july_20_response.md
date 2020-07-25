@@ -10,6 +10,24 @@ Cats and Dogs:
 
 3. The metric argument determines how the model's performance is judged. Like with the optimizer and loss functions, there are multiple options to choose from to determine how this is implemented. For example, the argument accuracy calculates how often the model's predictions equal the actual labels.
 
-4. <img width="402" alt="image" src="https://user-images.githubusercontent.com/67920492/88466077-c85a5180-ce96-11ea-8b0b-7f55082658fb.png">
+4. The model had a training accuracy of almost 98% and a validation accuracy of 60%, so it is clearly very overfit. This is reflected in the graphs below, as the validation set starts to drastically differ from the training set for both accuracy and loss at about 7 epochs.
 
-The model had a training accuracy of almost 98% and a validation accuracy of 60%, so it is clearly very overfit. This is reflected in the graphs above, as the validation set starts to drastically differ from the training set for both accuracy and loss at about 7 epochs.
+<img width="402" alt="image" src="https://user-images.githubusercontent.com/67920492/88466077-c85a5180-ce96-11ea-8b0b-7f55082658fb.png">
+
+5. Prediction: cat
+![image](https://user-images.githubusercontent.com/67920492/88466194-e2486400-ce97-11ea-9089-4e21e083ff9c.png)
+
+Prediction: cat
+![image](https://user-images.githubusercontent.com/67920492/88466199-f0968000-ce97-11ea-861e-30719308da2d.png)
+
+Prediction: cat
+![image](https://user-images.githubusercontent.com/67920492/88466210-fc824200-ce97-11ea-8d58-65a57f795215.png)
+
+Prediction: cat
+![image](https://user-images.githubusercontent.com/67920492/88466215-086e0400-ce98-11ea-9ebd-2c33df92d530.png)
+
+Prediction: cat
+![image](https://user-images.githubusercontent.com/67920492/88466223-12900280-ce98-11ea-8c91-31f3530cd125.png)
+
+Prediction: cat
+![image](https://user-images.githubusercontent.com/67920492/88466229-1cb20100-ce98-11ea-8cf9-392a1ecf0e00.png)
