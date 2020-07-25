@@ -22,4 +22,13 @@ Premade estimators:
 
 Linear model:
 
-1. 
+1. When comparing the histogram of age to the plot in which the relationship between age and itself is displayed, it becomes clear that the two are displaying the same shape, as both show the distribution of age within the dataset. The majority of passengers were in their late 20s.
+
+<img width="625" alt="image" src="https://user-images.githubusercontent.com/67920492/88466829-630a5e80-ce9e-11ea-81d7-70523d86aa84.png">
+<img width="325" alt="image" src="https://user-images.githubusercontent.com/67920492/88466750-9ac4d680-ce9d-11ea-8e02-87c8cc205494.png">
+
+2. A categorical column is a column holding data that corresponds to a label, rather than having a numeric value. A dense feature stores data as a numpy array, meaning that categorical columns have to be encoded into numeric values.
+
+3. The feature columns include sex, n_siblings_sposes, parch, class, deck, age, and fare. The first five are meant to be interpretated by the model as categorical, while the other two are to be interpretated as numerical. The initial output had an accuracy of 75.8%, making it an okay model. Adding a cross featured column makes the model more specific by exploring how the intersection of different features plays a role in determining whether or not a passenger survived. It could make the model more accurate by finding more specific correlations, which it does in this case as the accuracy increased to 77.6% when the interaction between age and gender was incorporated.
+
+The predicted probabilities plot shows that the model more frequently predicted that a passenger would 
