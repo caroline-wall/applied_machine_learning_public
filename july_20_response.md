@@ -1,4 +1,4 @@
-# July 20 Response
+# July 20, 2020 Response
 
 Problem Statement:
 
