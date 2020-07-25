@@ -14,7 +14,9 @@ Cats and Dogs:
 
 <img width="402" alt="image" src="https://user-images.githubusercontent.com/67920492/88466077-c85a5180-ce96-11ea-8b0b-7f55082658fb.png">
 
-5. Prediction: cat\
+5. Overall, the model did not perform well in practice, as it was only able to correctly identify one of the three dogs. This is most likely because the model is overfit and unable to generalize enough to properly classify these images. To combat this, we could try employing image augmentation, so the model is trained on a greater sample of images, as images could be rotated, zoomed, or flipped to create more data. We could also apply dropout, which is a regularization technique that makes the distribution of weight values more regular.
+
+Prediction: cat\
 ![image](https://user-images.githubusercontent.com/67920492/88466194-e2486400-ce97-11ea-9089-4e21e083ff9c.png)
 
 Prediction: cat\
@@ -29,5 +31,5 @@ Prediction: cat\
 Prediction: cat\
 ![image](https://user-images.githubusercontent.com/67920492/88466223-12900280-ce98-11ea-8c91-31f3530cd125.png)
 
-Prediction: cat\
+Prediction: dog\
 ![image](https://user-images.githubusercontent.com/67920492/88466229-1cb20100-ce98-11ea-8cf9-392a1ecf0e00.png)
