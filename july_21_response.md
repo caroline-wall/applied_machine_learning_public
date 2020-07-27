@@ -31,4 +31,7 @@ Linear model:
 
 3. The feature columns include sex, n_siblings_sposes, parch, class, deck, age, and fare. The first five are meant to be interpretated by the model as categorical, while the other two are to be interpretated as numerical. The initial output had an accuracy of 75.8%, making it an okay model. Adding a cross featured column makes the model more specific by exploring how the intersection of different features plays a role in determining whether or not a passenger survived. It could make the model more accurate by finding more specific correlations, which it does in this case as the accuracy increased to 77.6% when the interaction between age and gender was incorporated.
 
-The predicted probabilities plot shows that the model more frequently predicted that a passenger would 
+The predicted probabilities plot shows that the model more frequently predicted that a passenger would not survive, which according to the ROC curve, is a fairly accurate assessment of the data. The curve leans to the top left corner, indicating that more predictions were correctly labeled positive than were falsely labeled positive.
+
+<img width="343" alt="image" src="https://user-images.githubusercontent.com/67920492/88467623-bb455e80-cea6-11ea-95ee-a1f87e449465.png">
+<img width="348" alt="image" src="https://user-images.githubusercontent.com/67920492/88467627-d0ba8880-cea6-11ea-8d12-311a2d7a0d6d.png">
