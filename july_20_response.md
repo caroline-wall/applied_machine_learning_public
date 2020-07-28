@@ -2,6 +2,8 @@
 
 Problem Statement:
 
+Fake news is a prevalent danger in today's society. The inability to distinguish between factual information and made-up stories posing as news has led to misinformed citizens, and therefore, a misinformed electorate, which is a challenge to democracy. To quell this problem, it is necessary to create a model that distinguishes between news written by professional journalists and that written by non-professionals hoping to spread fake information. The model will be able to predict what category an article falls into for a reader trying to avoid fake news. This can be done through natural language processing by looking for patterns in sentence structure, word choice, and tone. This will require tokenization as well as an embedding layer in the model.
+
 Cats and Dogs:
 
 1. I used RMSprop as my optimizer and set the learning rate to 0.001. I chose RMSprop because it works better on larger datasets that are split into batches than other optimizers, namely rprop.
