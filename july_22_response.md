@@ -15,3 +15,6 @@ Boosted Trees:
 
 Boosted Trees Continued:
 
+1. The feature values contribution histogram shows how each feature affects the predicted probability for a specific passenger. The red bars represent features that have a negative affect on the probability. In this model, the probability spans from 0 to 1, with 1 meaning that there is 100% chance that the passenger survived. Therefore, negative features indicate subtractions in the probability, moving the probability prediction closer to 0, which coincides with having a 0% chance of survival, or a 100% chance of not surviving. The green bars represent features with the opposite effect, moving the probability closer to 1. Additionally, the length of each bar shows how big an effect that feature has on predicting survival. As you can see, sex plays a large role, and males have a lower chance of survival.
+
+The violin plot shows similar patterns but instead of depicting the magnitude of each feature for a specific example, it shows the value for that example as well as the general distrubtion of each feature. The blue areas represent the range and distribution of each feature, so the example can be seen in context. For example, it can be seen that this passenger is a male and that there are more males than female and they are more likely to not survive.
