@@ -17,4 +17,14 @@ Boosted Trees Continued:
 
 1. The feature values contribution histogram shows how each feature affects the predicted probability for a specific passenger. The red bars represent features that have a negative affect on the probability. In this model, the probability spans from 0 to 1, with 1 meaning that there is 100% chance that the passenger survived. Therefore, negative features indicate subtractions in the probability, moving the probability prediction closer to 0, which coincides with having a 0% chance of survival, or a 100% chance of not surviving. The green bars represent features with the opposite effect, moving the probability closer to 1. Additionally, the length of each bar shows how big an effect that feature has on predicting survival. As you can see, sex plays a large role, and males have a lower chance of survival.
 
+<img width="631" alt="image" src="https://user-images.githubusercontent.com/67920492/88604751-19f50e80-d046-11ea-9130-2f37e46f4e90.png">
+
 The violin plot shows similar patterns but instead of depicting the magnitude of each feature for a specific example, it shows the value for that example as well as the general distrubtion of each feature. The blue areas represent the range and distribution of each feature, so the example can be seen in context. For example, it can be seen that this passenger is a male and that there are more males than female and they are more likely to not survive.
+
+<img width="583" alt="image" src="https://user-images.githubusercontent.com/67920492/88604789-309b6580-d046-11ea-9c07-cf87d5af510f.png">
+
+The feature importance plots all show sex as being the most important feature but place the remaining features in different positions. The gain feature importance calculates the contribution of each feature to the model by taking each feature's contribution for each tree in the model. As sex has the highest value, it is most important for generating a model, followed by fare and age. Permutation feature importance is the decrease in a model score when a feature value is randomly shuffled. It shows how much each feature's correlation with the target affects the model's score. This also determines sex to be the most important, but puts class as second most important with fare as fourth. Both plots have fare and class in the top four, proving that those two also contribute a lot to the model.
+
+<img width="598" alt="image" src="https://user-images.githubusercontent.com/67920492/88604851-532d7e80-d046-11ea-9f43-29669341a294.png">
+
+<img width="575" alt="image" src="https://user-images.githubusercontent.com/67920492/88604897-73f5d400-d046-11ea-99b4-c7a2e61a6062.png">
