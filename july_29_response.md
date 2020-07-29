@@ -12,3 +12,4 @@ Text Generation with an RNN:
 
 Neural Machine Translation:
 
+1. Of the three sentences I translated using translate(), only one of them was translated completely correctly. The model did a good job of recognizing and translating common words, such as to be verbs and conjunctions, but it struggled with some of the bigger, more specific words such as cumpleanos, which it translated as daughter. While I don't have a Spanish keyboard, which could have confused the translator on certain words and for questions, I doubt that would've made much of a difference, as most symbols in the training data were removed in preprocessing, so the translator should have been accustomed to not seeing them.
