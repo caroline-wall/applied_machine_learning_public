@@ -2,7 +2,13 @@
 
 Word Embeddings:
 
-1. 7/28/20 Embeddings Loss <img width="630" alt="image" src="https://user-images.githubusercontent.com/67920492/88712540-e10d7600-d0e7-11ea-8417-6291c7831e7a.png">
-7/28/20 Embeddings Accuracy <img width="642" alt="image" src="https://user-images.githubusercontent.com/67920492/88712616-00a49e80-d0e8-11ea-944e-95b0b20c21b6.png">
+1. One-hot encoding is when each word points to a vector in which it is encoded as 1 and the other words in the vocabulary are encoded as 0. This is inefficient, as it creates a vector for each word, but the vector is only giving information about that one word. That means that each vector is mostly made up of zeros, sparse vectors, so it is a waste of creating that many vectors. Instead, it would be more efficient to encode each word with a unique number, so the whole vocabularly could be encoded in one vector, a dense vector. Furthermore, dense vectors can be used to understand which words may have similar meanings by encoding each word as a set of floats. A similar vector of floats can indicate similar meaning between words.
+
+2. According to the graphs of training and validation loss and accuracy, the model is clearly overfitting. This could possibily be because of padding, as zero-padding was used in the input, which could have affected the output. Additionally, the test data may have included words that the model had not seen in training that it was unable to properly embed. To help control overfitting, possibly a larger training dataset should have been used or a smaller model.
+
+<img width="630" alt="image" src="https://user-images.githubusercontent.com/67920492/88712540-e10d7600-d0e7-11ea-8417-6291c7831e7a.png">
+<img width="642" alt="image" src="https://user-images.githubusercontent.com/67920492/88712616-00a49e80-d0e8-11ea-944e-95b0b20c21b6.png">
 
 Text Classification with an RNN:
+
+1. 
