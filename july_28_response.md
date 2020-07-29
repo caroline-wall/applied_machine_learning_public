@@ -11,4 +11,7 @@ Word Embeddings:
 
 Text Classification with an RNN:
 
-1. 
+1. The first model was compiled with one LSTM layer. This led to an overfit model, as seen in the first two graphs below. With another LSTM layer, 
+
+<img width="351" alt="image" src="https://user-images.githubusercontent.com/67920492/88815443-5da46100-d189-11ea-80ba-c8bf0dd35697.png">
+<img width="345" alt="image" src="https://user-images.githubusercontent.com/67920492/88815540-71e85e00-d189-11ea-8db6-ada172b47802.png">
