@@ -13,3 +13,5 @@
 9. [July 21 Response](https://caroline-wall.github.io/applied_machine_learning_public/july_21_response)
 10. [July 22 Response](https://caroline-wall.github.io/applied_machine_learning_public/july_22_response)
 11. [Project 3](https://caroline-wall.github.io/applied_machine_learning_public/project_3)
+12. [July 27 Response](https://caroline-wall.github.io/applied_machine_learning_public/july_27_response)
+13. [July 28 Response](https://caroline-wall.github.io/applied_machine_learning_public/july_28_response)
