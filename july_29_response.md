@@ -7,3 +7,8 @@ NLP Sarcasm Classifier:
 Text Generation with an RNN:
 
 1. The text generator did a fairly good job of imitating the style of Shakespeare, however, the content does not actually make sense. The generator was best of replicating the format. The lines read like a Shakespeare play, with the speaker's name in all caps, commas at the end of most lines, and each new line beginning with a capital letter. Some common phrases the generator seemed to remember well, such as "O, good" or the beginning words of questions, but these were often followed by a nonsensical collection of words, so while the generator learned how to form different types of sentences, it was unable to chose content words that made sense.
+
+<img width="457" alt="image" src="https://user-images.githubusercontent.com/67920492/88837086-ba157980-d1a5-11ea-8356-3b09883da735.png">
+
+Neural Machine Translation:
+
