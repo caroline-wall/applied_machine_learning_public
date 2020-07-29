@@ -11,7 +11,11 @@ Word Embeddings:
 
 Text Classification with an RNN:
 
-1. The first model was compiled with one LSTM layer. This led to an overfit model, as seen in the first two graphs below. With another LSTM layer, 
+1. The first model was compiled with one LSTM layer. This led to an overfit model, as seen in the first two graphs below. With another LSTM layer, the model continues to be just as overfit, as seen in the bottom two graphs, and in fact, is even more off on its prediction of the sample text than the original model. The validation accuracy and loss only stay with that of the training set for about one epoch, then it begins to reverse. Although the same thing occurs in the original model, the reversal in the validation accuracy and loss does not seem to be quite as sharp, indicating that that may be the better model of the two.
 
 <img width="351" alt="image" src="https://user-images.githubusercontent.com/67920492/88815443-5da46100-d189-11ea-80ba-c8bf0dd35697.png">
 <img width="345" alt="image" src="https://user-images.githubusercontent.com/67920492/88815540-71e85e00-d189-11ea-8db6-ada172b47802.png">
+
+<img width="427" alt="image" src="https://user-images.githubusercontent.com/67920492/88819667-4c118800-d18e-11ea-9027-61354ec2873e.png">
+<img width="425" alt="image" src="https://user-images.githubusercontent.com/67920492/88819715-5cc1fe00-d18e-11ea-96aa-4944951c6ef2.png">
+
