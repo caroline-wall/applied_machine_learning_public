@@ -16,7 +16,7 @@ A sigmoid activation was used as ___ .
 
 Model Performance:
 
-The model performed with a training accuracy of _ , a training loss of _ , a validation accuracy of _ , and a validation loss of _ . This was higher than expected and may be due to the dataset used. Most of the real news text was formatted in a way such that it began with the name of the city in which the news occurred in all caps. 
+The model performed with a training accuracy of _ , a training loss of _ , a validation accuracy of _ , and a validation loss of _ . This was higher than expected. In fact, this model unexpectedly performed better than the model found in [another study](https://onlinelibrary.wiley.com/doi/epdf/10.1002/spy2.9), in which n-grams, feature extraction, and other, more sophisticated methods were used. This difference is likely due to the dataset on which this model was trained. Most of the real news text was formatted in a way such that it began with the name of the city in which the news occurred in all caps. Therefore, it is likely had an easier time picking up on whether a text was fake or real, as it was able to rely on that significant formatting difference. 
 
 Project Proposal:
 
