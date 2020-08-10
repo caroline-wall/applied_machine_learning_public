@@ -14,7 +14,7 @@ Methods:
 
 The model itself consisted of an embedding layer, a global average pooling layer, and two dense layers. A sigmoid activation was used in the final dense layer as the model is being used to predict probability, which exists between 0 and 1. Binary crossentropy was chosen as the loss function, and adam was chosen as the optimizer.
 
-
+<img width="538" alt="image" src="https://user-images.githubusercontent.com/67920492/89745810-2769ba00-da84-11ea-8027-48c03497d60c.png">
 
 Model Performance:
 
